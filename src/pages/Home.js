@@ -1,6 +1,8 @@
+import Products from "../components/Products"
 
 function Home() {
     return (
+    <>
         <div className="hero py-16 ">
             <div className= "container mx-auto flex items-center justify">
                 
@@ -16,6 +18,10 @@ function Home() {
             </div>
         </div>
 
+        <div className="pb-24">
+            <Products/>
+        </div>
+</>
     )
 }
 
